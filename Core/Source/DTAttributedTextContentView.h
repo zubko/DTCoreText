@@ -206,6 +206,14 @@ typedef NSUInteger DTAttributedTextContentViewRelayoutMask;
 
 
 /**
+ @name Limiting the number of lines
+ */
+@property (nonatomic, assign) NSInteger numberOfLines;
+@property (nonatomic, assign) NSLineBreakMode lineBreakMode;
+@property (nonatomic, copy) NSAttributedString *truncationString;
+
+
+/**
  @name Working with Custom Subviews
  */
 
